@@ -1,0 +1,20 @@
+{
+  "umiejetnosci": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Figma",
+    "HTML & CSS",
+    "JavaScript",
+    "React (podstawy)"
+  ],
+  "projekty": [
+    {
+      "tytul": "FUTURE. KR (2024)",
+      "opis": "Realizacja kampanii kreatywnych w social media."
+    },
+    {
+      "tytul": "HEADSHOT (2025)",
+      "opis": "Projektowanie interfejsów i oprawy graficznej."
+    }
+  ]
+}
