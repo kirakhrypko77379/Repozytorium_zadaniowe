@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Kira Khrypko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&family=Average+Sans&display=swap" rel="stylesheet">
+    <link id="themeStylesheet" rel="stylesheet" href="green.css">
+</head>
+<body>
+
+    <header>
+        <img src="img/profile.JPG" alt="Kira Khrypko" class="profile-img">
+        <h1>KIRA KHRYPKO</h1>
+        <button id="themeBtn">Zmień motyw</button>
+        <button id="toggleSkills">Ukryj/Pokaż Umiejętności</button>
+    </header>
+
+    <main>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>E-mail: <a href="mailto:kirahripko@gmail.com">kirahripko@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+48721353653">48 721 353 653</a></p>
+            <p>Miasto: Warszawa, Polska</p>
+            <ul>
+                <li><a href="https://t.me/telegram/kirakhrypko" target="_blank" rel="noopener noreferrer">TELEGRAM</a></li>
+                <li><a href="https://github.com/kiraakhripko" target="_blank" rel="noopener noreferrer">GITHUB</a></li>
+            </ul>
+        </section>
+        <section id="o-mnie">
+            <h2>O mnie</h2>
+            <p>Jestem studentką z doświadczeniem w pracy jako grafik komputerowy i SMM manager. Tworzę kreatywne projekty i prowadzę skuteczną komunikację w mediach społecznościowych. Obecnie chcę rozwijać swoją karierę w branży IT.</p>
+        </section>
+		
+        <section id="umiejetnosci">
+            <h2>Umiejętności</h2>
+            <ul>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>Figma</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="doswiadczenie">
+            <h2>Doświadczenie</h2>
+            <article>
+                <h3>GRAFIK KOMPUTEROWY</h3>
+                <p class="company">Freelance | 2017-2025</p>
+                <p>Tworzenie projektów graficznych i identyfikacji wizualnej.</p>
+            </article>
+            <article>
+                <h3>SALES MANAGER</h3>
+                <p class="company">K.L.W. sp. z.o.o | 2026</p>
+                <p>Zarządzanie sprzedażą i komunikacja z klientami.</p>
+            </article>
+        </section>
+
+        <section id="edukacja">
+            <h2>Edukacja</h2>
+            <p><strong>Akademia finansów i biznesu VISTULA</strong></p>
+            <p>Kierunek: Informatyka | 2025-2029</p>
+        </section>
+
+        <section id="projekty">
+            <h2>Projekty</h2>
+            <ul>
+                <li>
+                    <strong>FUTURE. KR (2024)</strong>
+                    <p>Realizacja kampanii kreatywnych w social media.</p>
+                </li>
+                <li>
+                    <strong>HEADSHOT (2025)</strong>
+                    <p>Projektowanie interfejsów i oprawy graficznej.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+   <section id="kontakt-formularz">
+    <h2>Skontaktuj się ze mną</h2>
+    <p>Wypełnij formularz aby wysłać wiadomość</p>
+    <div class="form-wrapper">
+        <form id="contactForm" novalidate>
+            <div class="form-group">
+                <label for="firstName">Imię:</label>
+                <input type="text" id="firstName" name="firstName">
+                <span class="error-msg" id="firstNameError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Nazwisko:</label>
+                <input type="text" id="lastName" name="lastName">
+                <span class="error-msg" id="lastNameError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+                <span class="error-msg" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message"></textarea>
+                <span class="error-msg" id="messageError"></span>
+            </div>
+
+            <button type="submit">Wyślij wiadomość</button>
+            <p id="successMsg" style="color: green; display: none; font-weight: bold; margin-top: 10px;">
+                Wiadomość została wysłana pomyślnie!
+            </p>
+        </form>
+    </div>
+</section>
+    <footer>
+        <p>&copy; 2026 Kira Khrypko. Wszystkie wymagania techniczne spełnione.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
