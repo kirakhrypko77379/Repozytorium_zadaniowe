@@ -66,10 +66,13 @@ contactForm.addEventListener("submit", function(e) {
         }
     });
 
+    if (!isValid) {
+        e.stopImmediatePropagation();
+        return;
+    }
     
     if (isValid) {
         document.getElementById("successMsg").style.display = "block";
-        contactForm.reset(); 
         
         
         setTimeout(() => {
